@@ -60,6 +60,17 @@
         top: 1px;
         position: absolute;
     }
+    
+    footer {
+        text-align: right;
+        background-color: antiquewhite;
+        margin-top: 10px;
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        border: rebeccapurple solid;
+
+    }
 }
 
 
@@ -125,6 +136,11 @@
         right: 20px;
         top: 1px;
         position: absolute;
+    }
+
+    footer {
+        text-align: right;
+        background-color: antiquewhite;
     }
 }
 
@@ -194,6 +210,12 @@
         position: absolute;
     }
 
+    footer {
+        text-align: right;
+        background-color: antiquewhite;
+
+    }
+
 }
 
 @media (max-width: 500px) {
@@ -252,6 +274,11 @@
         right: 20px;
         top: 1px;
         position: absolute;
+    }
+
+    footer {
+        text-align: right;
+        background-color: antiquewhite;
     }
 
 }
