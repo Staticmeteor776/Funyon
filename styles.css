@@ -1,0 +1,105 @@
+@media (min-width: 1024px) {
+    body {
+        background-color: antiquewhite;
+        position: relative;
+    }
+
+    header {
+        background-color: white;
+        padding: 2px;
+        margin: 10px 10px 20px 0px;
+    }
+
+    nav {
+        width: 200px;
+        background-color: white;
+        height: 50vh;
+        padding: 20px;
+        text-align: center;
+    }
+
+    nav a {
+        display: block;
+        border-radius: 2px;
+        background-color: seagreen;
+        padding: 10px;
+        margin: 0px 10px 0px 10px;
+    }
+
+    nav a:hover {
+        background-color: SKYblue;
+    }
+
+    .container {
+        margin-left: 20px;
+        width: 75%;
+        padding: 10px;
+        background-color: wheat;
+        position: relative;
+    }
+
+    .flexy {
+        display: flex;
+    }
+
+    .organ {
+        width: 102.4px;
+        height: 102.4px;
+        right: 20px;
+        bottom: 20px;
+        position: absolute;
+    }
+}
+
+@media (min-width: 728px) {
+    body {
+        background-color: antiquewhite;
+        position: relative;
+    }
+
+    header {
+        background-color: white;
+        padding: 2px;
+        margin: 10px 10px 20px 0px;
+    }
+
+    nav {
+        width: 200px;
+        background-color: white;
+        height: 50vh;
+        padding: 20px;
+        text-align: center;
+    }
+
+    nav a {
+        display: block;
+        border-radius: 2px;
+        background-color: seagreen;
+        padding: 10px;
+        margin: 0px 10px 0px 10px;
+    }
+
+    nav a:hover {
+        background-color: SKYblue;
+    }
+
+    .container {
+        margin-left: 20px;
+        width: 75%;
+        padding: 10px;
+        background-color: wheat;
+        position: relative;
+    }
+
+    .flexy {
+        display: flex;
+    }
+
+    .organ {
+        width: 102.4px;
+        height: 102.4px;
+        right: 20px;
+        bottom: 20px;
+        position: absolute;
+    }
+}
