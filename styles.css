@@ -1,18 +1,20 @@
 @media (min-width: 1024px) {
     body {
-        background-color: antiquewhite;
+        background-color: gray;
         position: relative;
     }
 
     header {
-        background-color: white;
+        background-color: antiquewhite;
         padding: 2px;
         margin: 10px 10px 20px 0px;
+        text-align: center;
+        position: relative;
     }
 
     nav {
         width: 200px;
-        background-color: white;
+        background-color: antiquewhite;
         height: 50vh;
         padding: 20px;
         text-align: center;
@@ -34,8 +36,9 @@
         margin-left: 20px;
         width: 75%;
         padding: 10px;
-        background-color: wheat;
+        background-color: antiquewhite;
         position: relative;
+        text-align: center;
     }
 
     .flexy {
@@ -47,25 +50,38 @@
         height: 102.4px;
         right: 20px;
         bottom: 20px;
+        position: absolute;
+    }
+
+    .funyon {
+        width: 72.4px;
+        height: 72.4px;
+        right: 10px;
+        top: 1px;
         position: absolute;
     }
 }
 
-@media (min-width: 728px) {
+
+
+
+
+@media (min-width: 728px) and (max-width:1024px) {
     body {
-        background-color: antiquewhite;
+        background-color: gray;
         position: relative;
     }
 
     header {
-        background-color: white;
+        background-color: antiquewhite;
         padding: 2px;
         margin: 10px 10px 20px 0px;
+        position: relative;
     }
 
     nav {
         width: 200px;
-        background-color: white;
+        background-color: antiquewhite;
         height: 50vh;
         padding: 20px;
         text-align: center;
@@ -87,7 +103,7 @@
         margin-left: 20px;
         width: 75%;
         padding: 10px;
-        background-color: wheat;
+        background-color: antiquewhite;
         position: relative;
     }
 
@@ -102,4 +118,140 @@
         bottom: 20px;
         position: absolute;
     }
+
+    .funyon {
+        width: 72.4px;
+        height: 72.4px;
+        right: 20px;
+        top: 1px;
+        position: absolute;
+    }
+}
+
+
+
+
+
+
+@media (min-width: 500px) and (max-width:728px) {
+    body {
+        background-color: gray;
+        position: relative;
+    }
+
+    header {
+        background-color: antiquewhite;
+        padding: 2px;
+        margin: 10px 10px 20px 0px;
+    }
+
+    nav {
+        width: 100px;
+        background-color: antiquewhite;
+        height: 50vh;
+        padding: 20px;
+        text-align: center;
+    }
+
+    nav a {
+        display: block;
+        border-radius: 2px;
+        background-color: seagreen;
+        padding: 10px;
+        margin: 0px 10px 0px 10px;
+    }
+
+    nav a:hover {
+        background-color: SKYblue;
+    }
+
+    .container {
+        margin-left: 20px;
+        width: 75%;
+        padding: 10px;
+        background-color: antiquewhite;
+        position: relative;
+    }
+
+    .flexy {
+        display: flex;
+    }
+
+    .organ {
+        width: 102.4px;
+        height: 102.4px;
+        left: 20px;
+        bottom: 20px;
+        position: absolute;
+        opacity: 0.00001;
+    }
+
+    .funyon {
+        width: 72.4px;
+        height: 72.4px;
+        right: 20px;
+        top: 1px;
+        position: absolute;
+    }
+
+}
+
+@media (max-width: 500px) {
+    body {
+        background-color: gray;
+        position: relative;
+    }
+
+    header {
+        background-color: antiquewhite;
+        padding: 2px;
+        margin: 10px 10px 20px 0px;
+    }
+
+    nav {
+        width: auto;
+        height: 17vh;
+        padding: 35px;
+        margin-bottom: 10;
+        margin: auto;
+        text-align: center;
+    }
+
+    nav a {
+        display: block;
+        border-radius: 2px;
+        background-color: seagreen;
+        padding: 10px;
+        margin: 0px 10px 0px 10px;
+    }
+
+    nav a:hover {
+        background-color: SKYblue;
+    }
+
+    .container {
+        margin-left: 20px;
+        width: 75%;
+        padding: 10px;
+        background-color: antiquewhite;
+        position: relative;
+    }
+
+    .organ {
+        width: 102.4px;
+        height: 102.4px;
+        left: 20px;
+        bottom: 20px;
+        position: absolute;
+        opacity: 0.00001;
+    }
+
+    .funyon {
+        width: 72.4px;
+        height: 72.4px;
+        right: 20px;
+        top: 1px;
+        position: absolute;
+    }
+
 }
